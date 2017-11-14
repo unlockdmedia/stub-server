@@ -16,7 +16,7 @@ Create stub response json files in your project stub folder ([Example](scripts/u
 version: '2'
 services:
   stub:
-    image: stub
+    image: unlockd/stub-server
     volumes:
       - "myProjectStubDir:/stub"
     ports:
