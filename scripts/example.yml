@@ -1,0 +1,11 @@
+- request:
+    url: /user
+  response:
+    status: 200
+    body: "hello"
+
+- request:
+    url: /users
+  response:
+    status: 200
+    file: /scripts/users.json
